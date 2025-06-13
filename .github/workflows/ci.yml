@@ -10,7 +10,7 @@ jobs:
   hello:
     name: My first job
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: My first step
         run: echo "Hello world"
       - name: My second step
